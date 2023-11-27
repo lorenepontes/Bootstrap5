@@ -1,0 +1,49 @@
+
+body{
+margin: 0;
+padding: 0;
+
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.botao__acesso {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: silver; 
+
+}
+a{
+    text-decoration: none;
+}
+
+.botao {
+    padding: 1rem 3rem;
+    display: flex;
+    margin: 0 15px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px;
+   
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: tomato;
+    transform: translateX(5px) scale(1.2);
+    transition: transform 1s;
+    
+}
+
+
+.feito {
+    font-size: small;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
